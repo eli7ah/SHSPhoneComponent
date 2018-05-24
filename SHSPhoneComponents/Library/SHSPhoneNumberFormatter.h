@@ -17,6 +17,11 @@
 }
 
 /**
+ Converts a given string consists of digits to phone format with the given mask.
+ */
+-(NSString *) applyFormat:(NSString *)format forFormattedString:(NSString *)formattedDigits;
+
+/**
  Converts input string to dictionary.
  Return value format {text: "FORMATTED_PHONE_NUMBER", image: "PATH_TO_IMAGE"}
  Image path can be nil
